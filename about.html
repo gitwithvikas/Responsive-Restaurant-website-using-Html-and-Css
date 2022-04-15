@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Delight Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="phone.css">
+</head>
+
+<body>
+
+    <navbar class="navbar" id="nav">
+
+        <ul>
+            <div class="logo">
+                <a href="/index.html"><img src="/img/logo.png" alt="The Delight Restaurant"></a>
+            </div>
+            <div class="list">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/menu.html">Menus</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </div>
+
+        </ul>
+        <a href="javascript:void(0);" id="menu" onclick="myfunction()">&equiv;</a>
+
+    </navbar>
+
+    <section class="home">
+        <div class="home-heading">
+            <h1>The Delight Restaurant</h1>
+        </div>
+        <div class="home-se">
+            <div class="page-contant" class="ho-content">
+                <h1>About Us</h1>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="about-us">
+        <div class="main-about">
+            <div class="left-ab">
+                <div class="about-img">
+                    <img src="/img/facilities.jpg" alt="">
+                    <h2>Restaurant Facilities for Food concept :</h2>
+                </div>
+                <div class="about-contant">
+                    <p>Breakfast sets are served to the guest with an extensive set selection of modern and classic
+                        breakfast options reflecting the Corporate Culture and Standards. International and Thai/Asian
+                        “a la carte” cuisine is served during the day.</p>
+                </div>
+
+                <h3>The Coffee & Tea Service :</h3>
+
+                <p>Is served freshly brewed to every guest, no thermos or pre-brewed beverages are to be served.</p>
+
+                <h3>Condiments :</h3>
+
+                <p>Breakfast condiments such as salt, pepper, sugar, flowers are set on the table. Creamer/ milk is
+                    served on a tray upon arrival of the guest.</p>
+
+                <h3>Children menu :</h3>
+
+                <p>A small children menu with the emphasis on “most-popular” is available after breakfast.</p>
+
+                <h3>Additional Restaurant Facilities :</h3>
+
+                <p>Operating hours : Available on your time.
+                </p>
+                <p>
+                    Food selection & design: Service sequences/styles and standards must reflect the Corporate Culture.
+                </p>
+
+            </div>
+
+            <div class="right-ab">
+                <div class="about-img">
+                    <img src="/img/online.jpg" alt="">
+                    <h2>Online Order</h2>
+                </div>
+                <div class="about-contant">
+                    <p>Explore Our restaurants that deliver near you, or will try yummy takeout fare. With a place for
+                        every taste, it’s easy to find food you crave, and order online or through the Our web. Find
+                        great meals fast with lots of local menus. Enjoy eating the convenient way with places that
+                        deliver to your door.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="footer-contant">
+            <div class="res-name">
+                <h3>@The Delight Restaurant</h3>
+            </div>
+            <div class="footer-logo">
+                <img src="/img/footer1.png" alt="">
+                <img src="/img/footer2.png" alt="">
+                <img src="/img/footer3.png" alt="">
+            </div>
+            <div class="footer-text">
+                <p>All rights reserved!</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+
+
+
+        function myfunction() {
+            var l = document.getElementById("nav");
+
+            if (l.className === 'navbar') {
+                l.className += ' toggle';
+            }
+            else {
+                l.className = 'navbar';
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

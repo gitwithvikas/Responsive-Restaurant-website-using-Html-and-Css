@@ -1,0 +1,315 @@
+.navbar ul li{
+    display: none;
+}
+
+.navbar,.logo{
+    margin: 15px;
+}
+
+
+#menu{
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    font-size: 50px;
+    color: #f60606;
+    text-decoration: none;
+}
+
+
+.navbar{
+    width: 93%;
+}
+
+ /* home heading */
+
+.home-heading h1 {
+    font-size: 1.3rem;
+}
+
+
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* home section */
+.ho-content {
+    padding-top: 45px;
+}
+
+
+/* Template section */
+
+
+.fo-card h3 {
+    font-size: 13px;
+} 
+
+
+.left-tem, .right-tem {
+    flex-basis: 47%;
+    display: block;
+}
+
+.fo-card {
+    margin-top: 8px;
+}
+
+
+.fo-img img {
+    height: 190px;
+}
+
+
+.footer-contant {
+    font-size: 10px;
+}
+
+.fo-contant {
+    padding: 14px 12px;
+}
+
+
+
+
+
+
+/* toggle */
+
+
+.navbar.toggle .list{
+    display: block;
+    align-items: center;
+}
+
+.navbar.toggle ul{
+    position: relative;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    transition: 1s;
+}
+
+
+.navbar.toggle ul li{
+    
+    display: block;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    position: relative;
+    transition: 1s;
+
+}
+
+.navbar.toggle .logo{
+    display: none;
+}
+
+.navbar.toggle{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    border: none;
+    transition: 1s;
+    background: linear-gradient(rgb(27, 145, 147,.7),rgb(123, 229, 194,.7));
+}
+
+
+
+.navbar.toggle #menu {
+    right: 54px;
+    top: 35px;
+    
+}
+
+.navbar.toggle ul li a{
+    padding: 4px 10px;
+    transition: .7s;
+}
+
+.navbar.toggle ul li a:hover{
+    border-radius: 10px;
+    box-shadow: 0 0px 5px 6px white;
+}
+
+
+/* host section */
+
+.host-img img {
+    height: 50vh;
+}
+
+.host-main-contant{
+    margin-left: 15px;
+    width: 160px;
+}
+
+.host-contant h1 {
+    font-size: 20px;
+}
+
+.host-contant button {
+    width: 80%;
+}
+
+
+
+/* order section */
+.order-img img {
+    height: 50vh;
+}
+
+.order-main-contant {
+    width: 160px;
+}
+
+.order-contant{
+    margin-right: 12px;
+}
+
+.order-contant h1 {
+    font-size: 20px;
+}
+
+
+/* menu page */
+
+.cake-contant, .main-contant p {
+    line-height: 28px;
+}
+
+/* dinner section */
+.main-contant {
+    display: block;
+}
+
+.main-contant h2{
+    font-size: 1.1rem;
+}
+
+
+
+/* lunch section */
+.main-lunch-contant {
+     display: block; 
+}
+
+.main-lunch-contant p {
+    width: auto;
+}
+
+.f-img {
+    display: flex;
+    align-items: center;
+}
+
+.f-img img {
+    height: 120px;
+}
+
+
+/* fast section */
+
+.f-contant {
+    flex-basis: 60%;
+}
+
+.main-fast {
+    display: block;
+   
+}
+
+
+.main-fast p {
+    width: 80%;
+}
+
+
+.main-fast h2 {
+    font-size: 15px;
+}
+
+/* about page */
+
+.main-about {
+    display: block;
+}
+
+
+.right-ab{
+    margin-top: 50px;
+}
+
+
+@media(max-width:350px){
+
+    /* home heading */
+
+    .home-heading h1 {
+       font-size: 1rem;
+    }
+    
+     /* host section */
+
+     .host-main-contant {
+        width: auto;
+        margin: auto;
+    } 
+
+    .h-contant {
+        display: block;
+        
+    }
+
+
+    .host-contant button {
+        width: 60%;
+    
+    }
+
+
+     /* order section */
+
+
+     .o-contant {
+        display: block;
+    
+    }
+
+    .order-contant {
+       margin: auto;
+       margin-bottom: 4px;
+    }
+
+    .order-main-contant {
+       width: auto;
+       margin: auto;
+    }
+
+    /* templates */
+
+    .fo-temp {
+         display: block;
+    }
+
+    /* footer */
+
+    .res-name h3 {
+        font-size: 8px;
+    }
+
+    .footer-logo img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .footer-text p{
+        font-size: 8px;
+    }
+}

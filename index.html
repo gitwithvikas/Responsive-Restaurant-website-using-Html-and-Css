@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Delight Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="phone.css">
+
+
+</head>
+
+<body>
+    <navbar class="navbar" id="nav">
+
+        <ul>
+            <div class="logo">
+                <a href="/index.html"><img src="/img/logo.png" alt="The Delight Restaurant"></a>
+            </div>
+            <div class="list">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/menu.html">Menus</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </div>
+
+        </ul>
+        <a href="javascript:void(0);" id="menu" onclick="myfunction()">&equiv;</a>
+
+    </navbar>
+
+    <section class="home">
+        <div class="home-heading">
+            <h1>The Delight Restaurant</h1>
+        </div>
+        <div class="home-se">
+            <div class="ho-content">
+                <h1>WELCOME</h1>
+            </div>
+            <div class="ho-btn">
+                <button>ORDER NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="co-content">
+            <p>“We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.” 
+            <br>
+            “Every time you use the word ‘healthy,’ you lose. The key is to make yummy, delicious food that happens to be healthy.”
+            </p>
+            <button>LEARN MORE</button>
+        </div>
+    </section>
+
+
+
+    <section class="host">
+        <div class="h-contant">
+            <div class="host-img">
+                <img src="/img/party.jpg" alt="">
+            </div>
+            <div class="host-contant">
+                <div class="host-main-contant">
+                    <div class="heading">
+                        <h1>HOST A <br>PARTY</h1>
+
+                    </div>
+                    <div class="host-sub">
+                        <p>Make A Party And Chill With Friends And Family</p>
+                        <button>BOOK NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="order">
+        <div class="o-contant">
+            <div class="order-contant">
+                <div class="order-main-contant">
+                    <div class="heading">
+                        <h1>ORDER</h1>
+                    </div>
+                    <div class="sub-order">
+                        <p><strong>AVAILABLE:</strong></p>
+                        <p>Monday to Sunday</p>
+                        <p>9AM to 1AM</p>
+                        <button>ORDER NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="order-img">
+                <img src="/img/order.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="template">
+        <div class="fo-temp">
+            <div class="left-tem">
+                <div class="fo-card">
+                    <div class="fo-img">
+                        <img src="/img/Pizza.jpg" alt="">
+                    </div>
+                    <div class="fo-contant">
+                        <h3>Pizza</h3>
+                        <p>Rating : 4/5</p>
+                    </div>
+                </div>
+
+                <div class="fo-card">
+                    <div class="fo-img">
+                        <img src="/img/burgur.jpg" alt="">
+                    </div>
+                    <div class="fo-contant">
+                        <h3>Burgur</h3>
+                        <p>Rating : 3/5</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-tem">
+                <div class="fo-card">
+                    <div class="fo-img">
+                        <img src="/img/rajma.png" alt="">
+                    </div>
+                    <span></span>
+                    <div class="fo-contant">
+                        <h3>Rajma Rice</h3>
+                        <p>Rating : 4.5/5</p>
+                    </div>
+                </div>
+
+                <div class="fo-card">
+                    <div class="fo-img">
+                        <img src="/img/choco-cake.jpg" alt="">
+                    </div>
+                    <div class="fo-contant">
+                        <h3>Chocolates & Cakes</h3>
+                        <p>Rating : 4/5</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-contant">
+            <div class="res-name">
+                <h3>@The Delight Restaurant</h3>
+            </div>
+            <div class="footer-logo">
+                <img src="/img/footer1.png" alt="">
+                <img src="/img/footer2.png" alt="">
+                <img src="/img/footer3.png" alt="">
+            </div>
+            <div class="footer-text">
+                <p>All rights reserved!</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script>
+
+
+
+        function myfunction() {
+            var l = document.getElementById("nav");
+
+            if (l.className === 'navbar') {
+                l.className += ' toggle';
+            }
+            else {
+                l.className = 'navbar';
+            }
+        }
+
+    </script>
+</body>
+
+</html>
